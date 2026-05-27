@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tenedor Labs</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Instrument+Serif:ital@0;1&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <section class="tenedor">
+    <p class="tenedor-eyebrow">
+      tenedorlabs.dev &nbsp;·&nbsp; est. 2025
+    </p>
+
+    <h1 class="tenedor-name">
+      Tenedor
+      <span>Labs</span>
+    </h1>
+
+    <p class="tenedor-tagline">
+      <strong>Fork it.</strong> Build something better.<br>
+      Human-driven apps for the moments that matter.
+    </p>
+
+    <p class="scroll-hint">see what's cooking</p>
+  </section>
+
+  <!-- ── TAPE ── -->
+  <div class="tape-wrapper" aria-hidden="true">
+    <div class="tape-stripe"></div>
+    <div class="tape-track" id="tapeTrack">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- ── TERMINAL ── -->
+  <section class="terminal-section">
+    <div class="terminal-glow"></div>
+
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <div class="t-dot red"></div>
+        <div class="t-dot amber"></div>
+        <div class="t-dot green"></div>
+        <span class="terminal-title">
+          tenedor-labs — build.sh
+        </span>
+      </div>
+      <div class="terminal-body" id="termBody">
+        <!-- filled by JS -->
+      </div>
+    </div>
+
+    <p class="terminal-footer">
+      &copy; 2025 Tenedor Labs &nbsp;·&nbsp;
+      <a href="https://github.com" target="_blank" rel="noopener">github</a>
+      &nbsp;·&nbsp; built with purpose
+    </p>
+  </section>
+</body>
+
+</html>
